@@ -6,7 +6,7 @@ Algerian Camp & Hike Guide is a comprehensive mobile application designed to ass
 
 ## Key Features
 
-- **Site Exploration**: Find the best camping and hiking sites through an interactive map, with detailed information on each location including ratings, security checks, pricing, parking areas, and photos.
+- **Site Exploration**: Find the best camping and hiking sites through an interactive map, powered by the Google Maps API, with detailed information on each location including ratings, security checks, pricing, parking areas, and photos.
 - **Advanced Search**: Search for destinations by province or name, and discover recommended equipment for each site.
 - **Integrated Navigation**: Enjoy step-by-step navigation to reach your destination by car or on foot, with the option to download offline maps for hikes.
 - **Experience Sharing**: Publish your photos and comments on your camping and hiking adventures, and join a community of enthusiasts to share your experiences on social media.
@@ -16,7 +16,13 @@ Algerian Camp & Hike Guide is a comprehensive mobile application designed to ass
 
 ## Technologies Used
 
-Algerian Camp & Hike Guide is developed using Flutter for a smooth and responsive user experience. Firebase services are also integrated for real-time data management, including user profiles, site ratings, and social interactions.
+Algerian Camp & Hike Guide is developed using:
+- **Flutter**: for a smooth and responsive user experience.
+- **GetX**: for state management, navigation, and dependency injection.
+- **Firebase**: for real-time data management and user authentication.
+- **Cloud Firestore**: for storing and retrieving location data, user profiles, and site ratings.
+- **Google Maps API**: for the interactive map feature, providing accurate location information and navigation.
+- **Custom Animations**: Implemented using Flutter's Tween library to enhance user interactions and visual appeal.
 
 ## Objective
 
